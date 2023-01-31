@@ -1,0 +1,22 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Create</title>
+</head>
+<body>
+    <form method="post" action="@Url.Action("Create")" enctype="multipart/form-data">
+        <div>
+            請選擇上傳檔案
+            <input type="file" name="photo" id="photo" />
+            <input type="submit" value="檔案上傳" />
+        </div>
+    </form>
+</body>
+</html>
